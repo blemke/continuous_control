@@ -31,15 +31,20 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Getting Started
 
 1. Install Anaconda if it not already installed. To set up an Anaconda environment, then from bash type:
-	conda create --name drlnd_navigation python=3.6 
+	conda create --name drlnd_navigation python=3.6
+ 
 	source activate drlnd
 
 	git clone https://github.com/openai/gym.git
+
 	cd gym
+
 	pip install -e .
 
 	git clone https://github.com/udacity/deep-reinforcement-learning.git
+
 	cd deep-reinforcement-learning/python
+
 	pip install .
 
 2. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
